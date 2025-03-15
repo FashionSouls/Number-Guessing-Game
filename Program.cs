@@ -3,10 +3,9 @@
 bool gameCheck = true; 
 
 // Get the range
-bool firstNumberCheck = false;
 int firstNumber = 0;
 
-bool secondNumberCheck = false;
+bool secondNumberCheck = true;
 int secondNumber = 0;
 
 Random random = new Random();
@@ -17,33 +16,40 @@ int attempts = 3;
 
 void Reset() {
     attempts = 3;
-    firstNumberCheck = false;
-    secondNumberCheck = false;
+    secondNumberCheck = true;
     targetCheck = false;
     gameCheck = true;
 }
 
-while (gameCheck) {
-    while (!firstNumberCheck) {
-        Console.WriteLine("Please enter the smallest number of the range:");
-        firstNumberCheck = int.TryParse(Console.ReadLine(), out firstNumber);
+int GetUserInput() {
+    int value = 0;
+    bool check = true;
 
-        if (!firstNumberCheck) {
+    while (check) {
+        check = int.TryParse(Console.ReadLine(), out value);
+
+        if (!check) {
             Console.WriteLine("Invalid number - try again.");
+        } else {
+            return value;
         }
     }
 
-    while (!secondNumberCheck) {
-        Console.WriteLine("Please enter the biggest number of the range:");
-        secondNumberCheck = int.TryParse(Console.ReadLine(), out secondNumber);
+    return value;
+}
 
-        if (!secondNumberCheck) {
-            Console.WriteLine("Invalid number - try again.");
-        }
+while (gameCheck) {
+    Console.WriteLine("Please enter the smallest number of the range:");
+    firstNumber = GetUserInput();
+
+    while (secondNumberCheck) {
+        Console.WriteLine("Please enter the biggest number of the range:");
+        secondNumber = GetUserInput();
 
         if (secondNumber < firstNumber) {
-            secondNumberCheck = false;
             Console.WriteLine("Second number is smaller than first number - try again.");
+        } else {
+            secondNumberCheck = false;
         }
     }
 
@@ -54,16 +60,7 @@ while (gameCheck) {
     while (!targetCheck) {
         int guess = 0;
         Console.WriteLine("----------------\nYou have " + attempts + " attempts left! Please enter a number between " + firstNumber + " and " + secondNumber);
-        targetCheck = int.TryParse(Console.ReadLine(), out guess);
-
-        if (!targetCheck) {
-            Console.WriteLine("Invalid number - try again.");
-        }
-
-        if (guess < firstNumber || guess > secondNumber) {
-            targetCheck = false;
-            Console.WriteLine("Invalid number - try again.");
-        }
+        guess = GetUserInput();
 
         if (guess == target) {
             Console.WriteLine("You got the number! Well done!");
