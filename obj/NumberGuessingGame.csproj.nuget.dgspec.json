@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "I:\\Coding\\CSharp\\NumberGuessingGame\\NumberGuessingGame.csproj": {}
+    "i:\\Coding\\CSharp\\NumberGuessingGame\\NumberGuessingGame.csproj": {}
   },
   "projects": {
-    "I:\\Coding\\CSharp\\NumberGuessingGame\\NumberGuessingGame.csproj": {
+    "i:\\Coding\\CSharp\\NumberGuessingGame\\NumberGuessingGame.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "I:\\Coding\\CSharp\\NumberGuessingGame\\NumberGuessingGame.csproj",
+        "projectUniqueName": "i:\\Coding\\CSharp\\NumberGuessingGame\\NumberGuessingGame.csproj",
         "projectName": "NumberGuessingGame",
-        "projectPath": "I:\\Coding\\CSharp\\NumberGuessingGame\\NumberGuessingGame.csproj",
+        "projectPath": "i:\\Coding\\CSharp\\NumberGuessingGame\\NumberGuessingGame.csproj",
         "packagesPath": "C:\\Users\\msumm\\.nuget\\packages\\",
-        "outputPath": "I:\\Coding\\CSharp\\NumberGuessingGame\\obj\\",
+        "outputPath": "i:\\Coding\\CSharp\\NumberGuessingGame\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

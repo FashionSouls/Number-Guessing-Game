@@ -1,0 +1,15 @@
+I:\Coding\CSharp\NumberGuessingGame\bin\Debug\net9.0\NumberGuessingGame.exe
+i:\Coding\CSharp\NumberGuessingGame\bin\Debug\net9.0\NumberGuessingGame.deps.json
+i:\Coding\CSharp\NumberGuessingGame\bin\Debug\net9.0\NumberGuessingGame.runtimeconfig.json
+I:\Coding\CSharp\NumberGuessingGame\bin\Debug\net9.0\NumberGuessingGame.dll
+I:\Coding\CSharp\NumberGuessingGame\bin\Debug\net9.0\NumberGuessingGame.pdb
+I:\Coding\CSharp\NumberGuessingGame\obj\Debug\net9.0\NumberGuessingGame.GeneratedMSBuildEditorConfig.editorconfig
+I:\Coding\CSharp\NumberGuessingGame\obj\Debug\net9.0\NumberGuessingGame.AssemblyInfoInputs.cache
+I:\Coding\CSharp\NumberGuessingGame\obj\Debug\net9.0\NumberGuessingGame.AssemblyInfo.cs
+I:\Coding\CSharp\NumberGuessingGame\obj\Debug\net9.0\NumberGuessingGame.csproj.CoreCompileInputs.cache
+I:\Coding\CSharp\NumberGuessingGame\obj\Debug\net9.0\NumberGuessingGame.sourcelink.json
+I:\Coding\CSharp\NumberGuessingGame\obj\Debug\net9.0\NumberGuessingGame.dll
+I:\Coding\CSharp\NumberGuessingGame\obj\Debug\net9.0\refint\NumberGuessingGame.dll
+I:\Coding\CSharp\NumberGuessingGame\obj\Debug\net9.0\NumberGuessingGame.pdb
+i:\Coding\CSharp\NumberGuessingGame\obj\Debug\net9.0\NumberGuessingGame.genruntimeconfig.cache
+i:\Coding\CSharp\NumberGuessingGame\obj\Debug\net9.0\ref\NumberGuessingGame.dll
